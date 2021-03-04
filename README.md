@@ -7,6 +7,16 @@ It provides just one function, `getkey()`, which blocks until the user presses
 a key. This function returns a 2-tuple containing the `bytes` representation of
 the key being pressed and a developer-friendly name of the key.
 
+### Goals
+- Does not require superuser privileges.
+- Use only standard Python libraries.
+
+### Limitations
+- Requires Python 3; does not support Python 2.
+- Works only for those Unix versions that support POSIX termios style tty I/O
+control configured during installation.
+- Developed and tested on Ubuntu 20.04 LTS.
+
 ### Usage
 The `getkey.py` script can be run directly from the command line:
 ```
