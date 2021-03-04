@@ -10,7 +10,7 @@ the key being pressed and a developer-friendly name of the key.
 ### Usage
 The `getkey.py` script can be run directly from the command line:
 ```
-$ python3 getkey.py
+$ **python3 getkey.py**
 Press ESCAPE or CTRL+C to quit.
 b'\x1bOP', (27, 79, 80), len=3, keyname=f1
 b'\x1b[15~', (27, 91, 49, 53, 126), len=5, keyname=f5
