@@ -9,7 +9,7 @@ the key being pressed and a developer-friendly name of the key.
 
 ### Goals
 - Does not require superuser privileges.
-- Use only standard Python libraries.
+- Use only standard Python libraries; no need to install external libraries.
 
 ### Limitations
 - Requires Python 3; does not support Python 2.
