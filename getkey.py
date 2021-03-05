@@ -6,14 +6,6 @@ as the keys are typed, without the need to press the Enter key.
 When executed directly from the command line, this script displays the
 bytes representing a key press, followed by a developer-friendly name
 of the key.
-
-Important goals of this module:
-1. Does not require superuser privileges.
-2. Use only standard Python libraries.
-
-Limitations:
-1. Works only for those Unix versions that support POSIX termios style
-   tty I/O control configured during installation.
 """
 
 import os
