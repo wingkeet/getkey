@@ -3,10 +3,11 @@
 ### Introduction
 `getkey.py` is a Python 3 module that allows the user to read key presses
 immediately, as the keys are typed, without having to press the Enter key.
-It provides just one function, `getkey()`, which blocks until the user presses
-a key. This function returns a 2-tuple containing the `bytes` representation of
-the key being pressed, followed by and a developer-friendly name of the key.
-Developed and tested on Ubuntu 20.04 LTS.
+It provides just one function, `getkey()`, which blocks until the user
+presses a key. This function returns a 2-tuple containing the
+[bytes](https://docs.python.org/3/library/stdtypes.html#binaryseq)
+representation of the key being pressed, followed by a developer-friendly
+name of the key. Developed and tested on Ubuntu 20.04 LTS.
 
 ### Goals
 - Does not require superuser privileges.
