@@ -1,7 +1,7 @@
 """Reads key press using a blocking call.
 
-This library module allows the user to read key presses immediately,
-as the keys are typed, without the need to press the Enter key.
+This module allows the user to read key presses immediately,
+as the keys are typed, without having to press the Enter key.
 
 When executed directly from the command line, this script displays the
 bytes representing a key press, followed by a developer-friendly name
