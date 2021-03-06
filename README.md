@@ -1,7 +1,8 @@
 # getkey
 
 ### Introduction
-`getkey.py` is a Python 3 module that allows the user to read key presses
+[`getkey.py`]((https://github.com/wingkeet/getkey/blob/main/getkey.py))
+is a Python 3 module that allows the user to read key presses
 immediately, as the keys are typed, without having to press the Enter key.
 It provides just one function, `getkey()`, which blocks until the user
 presses a key. This function returns a 2-tuple containing the
