@@ -65,7 +65,7 @@ def getkey() -> Tuple[bytes, str]:
 
 
 if __name__ == '__main__':
-    print('Press ESCAPE or CTRL+C to quit.')
+    print('Press ESCAPE or CTRL-C to quit.')
     try:
         while True:
             b, keyname = getkey()
