@@ -31,6 +31,7 @@ b'\t', (9,), len=1, keyname=tab
 b'\n', (10,), len=1, keyname=return
 b' ', (32,), len=1, keyname=space
 b'$', (36,), len=1, keyname=$
+b'0', (48,), len=1, keyname=0
 b'A', (65,), len=1, keyname=A
 b'a', (97,), len=1, keyname=a
 b'\x1b[A', (27, 91, 65), len=3, keyname=up
