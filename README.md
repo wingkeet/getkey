@@ -27,10 +27,12 @@ Press ESCAPE or CTRL-C to quit.
 b'\x1bOP', (27, 79, 80), len=3, keyname=f1
 b'\x1b[15~', (27, 91, 49, 53, 126), len=5, keyname=f5
 b'\x1b[24~', (27, 91, 50, 52, 126), len=5, keyname=f12
-b'A', (65,), len=1, keyname=A
-b'm', (109,), len=1, keyname=m
-b'$', (36,), len=1, keyname=$
+b'\t', (9,), len=1, keyname=tab
+b'\n', (10,), len=1, keyname=return
 b' ', (32,), len=1, keyname=space
+b'$', (36,), len=1, keyname=$
+b'A', (65,), len=1, keyname=A
+b'a', (97,), len=1, keyname=a
 b'\x1b[A', (27, 91, 65), len=3, keyname=up
 b'\x1b[B', (27, 91, 66), len=3, keyname=down
 b'\x1b[C', (27, 91, 67), len=3, keyname=right
@@ -41,7 +43,6 @@ b'\x1b[H', (27, 91, 72), len=3, keyname=home
 b'\x1b[F', (27, 91, 70), len=3, keyname=end
 b'\x1b[5~', (27, 91, 53, 126), len=4, keyname=pageup
 b'\x1b[6~', (27, 91, 54, 126), len=4, keyname=pagedown
-b'\n', (10,), len=1, keyname=return
 b'\x1b', (27,), len=1, keyname=esc
 bye.
 ```
